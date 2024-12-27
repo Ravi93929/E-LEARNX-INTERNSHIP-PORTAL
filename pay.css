@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+.registration-form {
+    display: flex;
+    flex-direction: column;
+}
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.input-group input, 
+.input-group select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.input-group input:focus,
+.input-group select:focus {
+    outline-color: #6c5ce7;
+    border-color: #6c5ce7;
+}
+.payment-section h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.payment-section .input-group label {
+    font-size: 14px;
+    color: #333;
+}
+
+.payment-section .input-group input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.submit-btn {
+    border:none;
+    background: #ea1538;
+    padding: 12px;
+    border-radius: 30px;
+    color: #efeeee;
+    font-weight: bold;
+    width:200px;
+    margin-left: 180px;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.submit-btn:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+}
+

@@ -1,0 +1,258 @@
+*{
+    margin: 0px;
+    padding:0px;
+    text-decoration: none;
+}
+body{
+    background:white;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 20px;
+    padding-bottom: 2%;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding:10px 20px;
+}
+.logo{
+    color: rgb(19, 12, 12);
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+span{
+    color: #ea1538;
+}
+nav ul li a{
+    color: rgb(19, 12, 12);
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #ea1538;
+    transition: 0.3s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+button{
+    border:none;
+    background: #ea1538;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: #efeeee;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 0.4s;
+}
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.panel{
+    display: flex;
+    background-color: rgb(16, 22, 22);
+}
+.panel1{
+    text-align: center;
+    padding: 40px 200px 40px 80px;
+    background-color: rgb(16, 22, 22);
+    color: white;
+    font-size:50px;
+    right: 20%;
+    font-weight: 700;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pan{
+    height: auto;
+    width: 390px;
+    padding-bottom:30px;
+}
+.hh{
+    background-color:  rgb(243, 241, 237);
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.hdc{
+    padding-left: 70px;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sec1{
+    display: flex;
+    margin-top:40px;
+    justify-content: space-around;
+    padding:20px;
+    border-radius: 60px;
+    margin-left:20px;
+    margin-right:20px;
+}
+.cs1{
+    width: 400px;
+}
+.cs2{
+    width:400px;
+}
+.cs3{
+    width:400px;
+}
+.con1{
+    padding-top: 20px;
+    padding-left:20px;
+    padding-bottom:20px;
+}
+.pag{
+    padding-left:10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.bt{
+    margin-left: 20px;
+}
+.cour1,.cour2,.cour3{
+    background-color:white;
+    border-radius: 30px;
+    padding-bottom: 20px;
+    box-shadow: 5px 10px 18px #888888;
+}
+.sec2{
+    display: flex;
+    margin-top:40px;
+    justify-content: space-around;
+    padding:20px;
+    border-radius: 60px;
+    margin-left:20px;
+    margin-right:20px;
+}
+.cs4{
+    width:425px;
+}
+.cs5{
+    width:400px;
+}
+.cs6{
+    width:425px;
+}
+.cour4,.cour5,.cour6{
+    background-color:white;
+    border-radius: 30px;
+    padding-bottom: 20px;
+    box-shadow: 5px 10px 18px #888888;
+}
+.sec3{
+    display: flex;
+    margin-top:40px;
+    justify-content: space-around;
+    padding:20px;
+    border-radius: 60px;
+    margin-left:20px;
+    margin-right:20px;
+}
+.cs7{
+    width:400px;
+}
+.cs8{
+    width:400px;
+}
+.cs9{
+    width:405px;
+}
+.cour7,.cour8,.cour9{
+    background-color:white;
+    border-radius: 30px;
+    padding-bottom: 20px;
+    box-shadow: 5px 10px 18px #888888;
+}
+.offer{
+    display: flex;
+    background-color:rgb(16, 22, 22) ;
+}
+.cont{
+    color: white;
+    padding-left: 60px;
+    padding-top: 60px;
+    padding-right: 30px;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.off{
+    width:300px;
+    height: auto;
+    padding-left: 60px;
+
+}
+.cont2{
+    font-size: 25px;
+    padding:20px;
+}
+.btt:hover{
+    background-color: white;
+    color: black;
+}
+footer{
+    padding-top:20px;
+    background-color: rgb(0, 38, 43);
+    color:white;
+}
+.foot{
+    display: flex;
+    padding:5px;
+}
+.first{
+    font-size:30px;
+    padding-left: 40px;
+}
+.second{
+   padding-left: 950px;
+}
+.insta{
+    height: auto;
+    width:50px;
+}
+.fb{
+    height: auto;
+    width:50px;
+}
+.tw{
+    height: auto;
+    width:50px;
+}
+.li{
+    height: auto;
+    width:50px;
+}
+.hd{
+    padding:3px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.cour{
+    padding-top: 50px;
+    padding-left:300px;
+    font-size: 20px;
+    color:whitesmoke;
+}
+
+.list a{
+    padding-top: 40px;
+    padding-left: 300px;
+    list-style-type: none;
+    color:white;
+    justify-content: space-around;
+    font-size:19px;
+}
+.li1{
+    padding:1px;
+}
+.mm{
+    display:flex;
+}
+.finalfoot{
+    padding:30px;
+}
